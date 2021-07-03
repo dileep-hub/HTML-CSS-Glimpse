@@ -1,0 +1,46 @@
+<!DOCTYPE html>  <!--Tells doc type-->
+<html>
+<head>
+    <title>My Page</title>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#course">click on me to take to course used id</a> <br>
+    <a href="#course2">click on me to take to course2 used id</a>
+
+    <h1>Removed default chrome style </h1>
+    <h2>Style for h2 tag</h1>
+    <div>  <!-- create a division -->
+        <h2>style for h2 div tag</h2>
+    </div>
+    <p>This is style for p tag</p>
+    <!-- END -->
+
+    <!-- Diff between class and id -->
+
+    <!-- we can use same class multiple time even for diff tags -->
+    <h3 class="index-h3">This is h3 tag for class (index-h3) </h3>
+    <h4 class="index-h3">This is h4 tag for class (index-h3) </h4>
+
+    <div class="mydiv1">
+        <p>hello i am p tag from class (mydiv1) </p> 
+        <h2>Not in css but in class (mydiv1) got style from global style</h1>
+    </div>
+
+    <!-- u cannot use same id multiple time it is unique -->
+    <!-- but u can use class multiple time -->
+    <div class="mydiv1" id="course">  
+        <p>My courses..! used id (course)</p>
+    </div>
+    <div id="course-2">
+        <p>My courses 2 used id (course2)</p>
+    </div>
+
+</body>
+</html>
+
+<!-- INside css for classes we use "."
+                for ids we use # -->
+
