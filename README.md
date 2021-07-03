@@ -8,3 +8,6 @@
 - Head tags
 ### Basic-3
 - style>> REMOVE CHROME DEFAULT STYLE
+- Basic-3.1 >> add style inside html file
+- Basic-3.2 >> use of div
+	- diff between class and id        >> 
