@@ -1,0 +1,41 @@
+@font-face {
+    font-family: myalian;
+    src: url('Fonts/Alien-Encounters-Bold.ttf');
+}
+
+h1 {
+    font-family: cmabria, "Times New Roman";
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    color: rgba(77, 0, 255, 1);  /* rgba gives transperancy */
+    text-decoration: underline;   /* if we give none it removes all the decoration*/
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    /* word-spacing: 10px; */
+}
+
+.paragraph {
+    font-size: 25px;
+    line-height: 30px;
+    text-indent: 30px; /* indexnt first line */
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: myalian;
+}
+
+#contact {
+    background-color: blueviolet;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+
+.gfont {
+    color: blue;
+    font-family: 'Tourney', cursive;
+}
