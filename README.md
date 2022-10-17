@@ -12,3 +12,4 @@
 - Basic-3.2 
 	- use of div
 	- diff between class and id        >> 
+	- it can be done using MG.Tech videos
